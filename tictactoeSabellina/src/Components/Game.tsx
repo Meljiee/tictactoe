@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import Board from './Board';
+import Board from './Board';    
 
-// Export calculateWinner so Board can use it
 export function calculateWinner(squares: (string | null)[]): string | null {
   const lines = [
     [0, 1, 2],
